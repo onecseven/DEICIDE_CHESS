@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxv65hwf0x653"]
+
+[ext_resource type="Script" path="res://TatiGrid.cs" id="1_sp4sn"]
+[ext_resource type="Script" path="res://Debug.cs" id="2_44cv3"]
+
+[node name="TatiGrid" type="Node2D"]
+position = Vector2(6, 6)
+script = ExtResource("1_sp4sn")
+Reversed = true
+SideLength = 40
+BoardLength = 16
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("2_44cv3")
